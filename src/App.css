@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+table {
+  font-size: 20px;
+  background: white;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+  opacity: .7;
+}
+
+table td {
+  border-bottom: 1px solid #efefef;
+  padding: 20px;
+}
+
+table, form {
+  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+input {
+  width: calc(100% - 40px);
+  padding:20px;
+  margin-bottom:20px;
+  font-size: 2rem;
+  border-radius: 2px;
+}
+
+.search-form {
+  max-width: 60%;
+  margin:50px auto;
+  background-color: rgba(0, 0, 0, .05);
+}
+
+button {
+  color: white;
+  height: 70px;
+  width: 100%;
+  background-color: darkgreen;
+  font-size: 2rem;
+
+}
